@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Mada:wght@500&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-image: url(images/pattern-background-desktop.svg);
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-color:hsl(225, 100%, 98%);
+font-family: 'Cairo', sans-serif;
+display: flex;
+flex-direction: column;
+height: 100vh;
+
+}
+
+.body{
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;   
+    height: 850px; 
+    overflow: hidden;
+    align-items: center
+;}
+
+
+.image  {
+    width: 100%;
+ }
+
+.image img {
+    width: 100%;
+}
+
+.text-content{
+    padding: 7%;
+    width: 90%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.paragraphe {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.paragraphe h1 {
+    font-size: 35px;
+}
+
+.changesound {
+    background-color: hsla(225, 100%, 94%, 0.271);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.price {
+    position: relative;
+    right: 110px;
+}
+.price p {
+    font-size: 20px;
+}
+.changesound img {
+    left: 10px;
+    position: relative;
+}
+
+
+.changesound a {
+    position: relative;
+    
+    right: 30px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+button {
+    margin: 40px 0px;
+    height: 60px;
+    border-radius: 10px;
+    width:100% ;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 1px 1px black;
+}
+button:hover {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.cancel {
+    text-decoration: none;
+    font-size: 20px;
+    color: hsla(222, 27%, 26%, 0.436);
+}
+
+
+
+@media screen and (max-width :540px) {
+    .price {
+        position: relative;
+        right: 30px;
+    }
+    .price p , .price h1 {
+        position: relative;
+        font-size:15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
